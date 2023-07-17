@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "es6"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+  }
+}
